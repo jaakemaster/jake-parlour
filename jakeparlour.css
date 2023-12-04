@@ -12,6 +12,7 @@ nav{
     display:flex;
     flex-direction: row;
     column-gap: 20em;
+    flex-wrap: wrap;
 }#logo{
     color:#674e5d;
     margin:auto 1em;
@@ -92,7 +93,7 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: #8c52ff69;
+    background-color: #4c13be69;
     margin-bottom: 0.7em;
 }
 .input{
@@ -103,4 +104,33 @@ body{
 }
 div>h2{
     margin-bottom:0.3em;
+}#testimonials{
+    margin-top:2em;
+}
+.testimony-image>img{
+    height:13em;
+    border-radius: 50%;
+    display:flex;
+}
+.individual-testimony{
+    display:flex;
+    margin-bottom:1em;
+    column-gap: 2%;
+}
+.testimony-text{
+    padding:1em;
+    width:50%;
+    height:15em;
+    font-style: italic;
+    font-size: 1.2em;
+}
+.testimony-image{
+    width:40%;
+    height:15em;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.testimony-text>p:last-of-type{
+    margin-top:1em;
 }
