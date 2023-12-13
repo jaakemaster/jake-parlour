@@ -174,3 +174,7 @@ div>h2{
 #services-text p{
     margin-bottom:0.8em;
 }
+#services-description{
+    border:1px solid pink;
+    width:100%;
+}
