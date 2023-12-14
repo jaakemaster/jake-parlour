@@ -177,4 +177,18 @@ div>h2{
 #services-description{
     border:1px solid pink;
     width:100%;
+    display:flex;
+    flex-direction: row;
+    flex-flow:row wrap;
+    padding:2em;
+}
+.services-description-images{
+    width:33%;
+}
+.services-description-images>figure>img{
+    width:90%;
+    margin:1em;
+}
+figure>figcaption{
+    text-align: center;
 }
