@@ -276,3 +276,47 @@ cursor: pointer;
 border:2px solid #000000 ;
 border-radius: 5px;
 }
+
+/*styles for about us page begin here*/
+#about-us-main{
+    width:100%;
+    padding:2em;
+    display:flex;
+    flex-direction: column;
+    row-gap: 2em;
+}
+#mission{
+    display:flex;
+    flex-direction:row;
+}
+#mission-text,#mission-image{
+    width:50%;
+}
+#mission-image>img{
+    width:80%;
+}
+#mission-image{
+    text-align: center;
+}
+#mission-text{
+    padding:2em;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+#vision{
+    display:flex;
+    flex-direction: row;
+}
+#vision-text{
+    width:50%;
+    padding:2em;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+#vision-image{
+    width:50%;
+    text-align: center;
+}
+#vision-image>img{
+    width:80%;
+}
